@@ -9,11 +9,7 @@ export default function EasternDivisionTeams(props) {
   return (
     <div className='teams'>
       <h3>Teams</h3>
-      <ul>
-        {teams[props.division].map(team => (
-          <li key={team}>{team}</li>
-        ))}
-      </ul>
+      
     </div>
   );
 }
