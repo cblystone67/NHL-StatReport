@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 
 export default function AtlanticDivisionTeams(){
   const [teams, setTeams] = useState([]);
@@ -28,7 +30,9 @@ export default function AtlanticDivisionTeams(){
       <h2>Atlantic Division Teams</h2>
       <ul>
         {easternConferenceTeams.map((team) => (
-          <li key={team.id}>{team.name}</li>
+          <li key={team.id}>
+          <Link to={`/teams/${team.id}`}>{team.name}</Link>
+          </li>
         ))}
       </ul>
     </div>
