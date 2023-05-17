@@ -1,4 +1,7 @@
-const [teams, setTeams] = useState([]);
+import { useState, useEffect } from "react";
+
+export default function AtlanticDivisionTeams(){
+  const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
     try {
       const response = await fetch('https://statsapi.web.nhl.com/api/v1/teams');
@@ -12,21 +15,23 @@ const [teams, setTeams] = useState([]);
   useEffect(() => {
     fetchTeams();
   }, []);
-  const westernConferenceTeams = teams.filter((team) => {
+  const easternConferenceTeams = teams.filter((team) => {
     return (
-      team.conference && team.conference.name === 'Western' &&
-      team.division && team.division.name === 'Central' // Replace 'Central' with your desired division
+      team.conference && team.conference.name === 'Eastern' &&
+      team.division && team.division.name === 'Atlantic' // Replace 'Central' with your desired division
     );
   });
   return (
         <div>
           <div>
-      <h2>This is the Api page</h2>
+            {console.log(easternConferenceTeams.name)}
+      <h2>Atlantic Division Teams</h2>
       <ul>
-        {westernConferenceTeams.map((team) => (
+        {easternConferenceTeams.map((team) => (
           <li key={team.id}>{team.name}</li>
         ))}
       </ul>
     </div>
         </div>
   )
+}
