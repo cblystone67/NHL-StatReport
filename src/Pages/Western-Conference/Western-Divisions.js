@@ -1,11 +1,10 @@
 import React from 'react';
-import WesternDivisionTeams from './Western-Conference/WesternDivisionTeams'
+import WesternConferenceApi from '../../components/WesternConference/WesternConferenceApi';
 
 export default function WesternDivisions(props) {
   return (
     <div className='division'>
-      <h2>{props.division} Division</h2>
-      <WesternDivisionTeams division={props.division} />
+     <WesternConferenceApi teams={teams}/>
     </div>
   );
 }
