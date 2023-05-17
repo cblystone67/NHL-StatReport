@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 //import { Link } from 'react-router-dom';
 
 
-export default function WesternConferenceApi(props){
+export default function WesternConferenceApi({onFetchTeams}){
   const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
     try {

@@ -1,5 +1,3 @@
-import WesternConferenceApi from "./WesternConferenceApi";
-
 
 export default function CentralDivisionTeams({teams}){
   <div>

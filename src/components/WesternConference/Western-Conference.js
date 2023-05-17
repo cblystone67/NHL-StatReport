@@ -6,11 +6,11 @@ function WesternConference({teams}) {
         <h2>Western Conference</h2>
         <ul>
           <li>
-            <Link to="/western/atlantic">Central Divison</Link>
+            <Link to="/western/central">Central Divison</Link>
           
           </li>
           <li>
-            <Link to='/western/metropolitan'>Pacific Division</Link>
+            <Link to='/western/pacific'>Pacific Division</Link>
           </li>
         </ul>
       </div>
