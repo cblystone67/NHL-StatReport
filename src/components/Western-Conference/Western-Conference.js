@@ -1,10 +1,18 @@
-import React from 'react';
+import {Link} from 'react-router-dom';
 
 function WesternConference() {
   return (
-    <div className='conference'>
-      <h1>Western Conference</h1>
-    </div>
+    <div>
+        <h2>Western Conference</h2>
+        <ul>
+          <li>
+            <Link to="/western/atlantic">Central Divison</Link>
+          </li>
+          <li>
+            <Link to='/western/metropolitan'>Pacific Division</Link>
+          </li>
+        </ul>
+      </div>
   );
 }
 
