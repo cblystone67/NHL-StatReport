@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+.team-card{
+  border-radius: 10%;
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  width: 30vmin;
+  height: 40vmin;
+  color: black;
+}
+.nhl-logo{
+  width: 25vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.team-name{
+  font-family: 'Smokum', cursive;
+}

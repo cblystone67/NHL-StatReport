@@ -1,4 +1,6 @@
 import { useParams } from 'react-router-dom';
+import './TeamInfo.css';
+import NHLLogo from '../../Images/NHL.png';
 
 export default function TeamInfo({ teams }) {
   const { teamId } = useParams();
@@ -9,9 +11,12 @@ export default function TeamInfo({ teams }) {
   }
 
   return (
-    <div>
-      <h2>{team.name}</h2>
-      {/* Display additional team information here */}
+    <>
+      <h2 className='team-name'>{team.name}</h2>
+    <div className='team-card'>
+      <img className='nhl-logo' src={NHLLogo} />
+      {team.officialSiteUrl}
     </div>
+    </>
   );
 }
