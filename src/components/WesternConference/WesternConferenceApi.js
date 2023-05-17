@@ -23,11 +23,10 @@ export default function WesternConferenceApi({onFetchTeams}){
       team.division && team.division.name === 'Central' // Replace 'Central' with your desired division
     );
   });
-
   return (
         <div>
           <div>
-      <h2>{teams.division}</h2>
+      <h2>This is the Api page</h2>
       <ul>
         {westernConferenceTeams.map((team) => (
           <li key={team.id}>{team.name}</li>

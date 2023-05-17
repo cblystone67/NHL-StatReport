@@ -1,20 +1,27 @@
-import {Link} from 'react-router-dom';
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from '../Navbar'
+import Home from '../../Pages/Home/Home';
+import WesternConferenceApi from '../WesternConference/WesternConferenceApi';
+import CentralDivisionTeams from '../WesternConference/CentralDivisionTeams';
+import PacificDivisionTeams from '../WesternConference/PacificDivisionTeams';
 
-function WesternConference({teams}) {
+
+function App() {
   return (
-    <div>
-        <h2>Western Conference</h2>
-        <ul>
-          <li>
-            <Link to="/western/central">Central Divison</Link>
+    <div className="App">
+      <NavBar />
+      <main className='container'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/western' element={<WesternConferenceApi />} />
+          <Route path='/western/central' element={<CentralDivisionTeams />} />
+          <Route path='/western/pacific' element={<PacificDivisionTeams />} />
           
-          </li>
-          <li>
-            <Link to='/western/pacific'>Pacific Division</Link>
-          </li>
-        </ul>
-      </div>
+        </Routes>
+      </main>
+    </div>
   );
 }
 
-export default WesternConference;
+export default App;
