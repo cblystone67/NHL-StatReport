@@ -1,8 +1,7 @@
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 function EasternConference(props) {
-  
-
   return (
       <div>
         <h2>Eastern Conference</h2>
