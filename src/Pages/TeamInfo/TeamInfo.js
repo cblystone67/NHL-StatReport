@@ -30,3 +30,4 @@ export default function TeamInfo({ teams }) {
     </>
   );
 }
+//Official site is https://www.nhl.com/<team icon 'sabres'>
