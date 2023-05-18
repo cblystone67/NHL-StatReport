@@ -4,11 +4,11 @@
   background-color: blanchedalmond;
   border: 3px solid black;
   width: 30vmin;
-  height: 40vmin;
-  color: black;
+  height: 45vmin;
+  color: blue;
 }
 .nhl-logo{
-  width: 25vmin;
+  width: 30vmin;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,4 +16,8 @@
 }
 .team-name{
   font-family: 'Smokum', cursive;
+  font-size: 10vmin;
+}
+.team-details{
+  padding-left: 2vmin;
 }

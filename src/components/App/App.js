@@ -10,9 +10,9 @@ import EasternConference from '../EasternConference/Eastern-Conference';
 import MetropolitanDivisionTeams from '../EasternConference/MetropolitanDivisionTeams';
 import AtlanticDivisionTeams from '../EasternConference/AtlanticDivisionTeams';
 import TeamInfo from '../../Pages/TeamInfo/TeamInfo';
-import useForceUpdate from './UseForceUpdate';
+
 function App() {
-  const forceUpdate = useForceUpdate();
+  
   const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
     try {
@@ -23,7 +23,6 @@ function App() {
       console.error('Error fetching teams: ', error);
     }
   };
-
   useEffect(() => {
     fetchTeams();
   }, []);
@@ -41,7 +40,6 @@ function App() {
           <Route path='/eastern/atlantic' element={<AtlanticDivisionTeams />} />
           <Route path='/teams/:teamId' element={<TeamInfo teams={teams} />} />          
         </Routes>
-        <button onClick={forceUpdate}>Refresh</button>
       </main>
     </div>
   );
