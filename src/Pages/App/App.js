@@ -10,9 +10,12 @@ import EasternConference from '../../components/EasternConference/Eastern-Confer
 import MetropolitanDivisionTeams from '../../components/EasternConference/MetropolitanDivisionTeams';
 import AtlanticDivisionTeams from '../../components/EasternConference/AtlanticDivisionTeams';
 import TeamInfo from '../TeamInfo/TeamInfo';
+import AuthPage from '../AuthPage/AuthPage';
+import { getUser } from '../../utilities/users-service';
 
 function App() {
-  
+  const [user, setUser] = useState(getUser());
+
   const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
     try {
@@ -27,9 +30,10 @@ function App() {
     fetchTeams();
   }, []);
   return (
-    <div className="App">
-      <NavBar />
-      <main className='container'>
+    <main className='App'>
+      {user ? (
+      <>
+      <NavBar  user={user} setUser={setUser}/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/western' element={<WesternConference />} />
@@ -40,8 +44,11 @@ function App() {
           <Route path='/eastern/atlantic' element={<AtlanticDivisionTeams />} />
           <Route path='/teams/:teamId' element={<TeamInfo teams={teams} />} />          
         </Routes>
+      </>
+      ):(
+        <AuthPage setUser={setUser} />
+      )}
       </main>
-    </div>
   );
 }
 
