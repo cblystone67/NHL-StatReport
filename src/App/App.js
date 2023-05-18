@@ -1,15 +1,15 @@
 import {useState, useEffect} from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import NavBar from '../Navbar'
-import Home from '../../Pages/Home/Home';
-import CentralDivisionTeams from '../WesternConference/CentralDivisionTeams';
-import PacificDivisionTeams from '../WesternConference/PacificDivisionTeams';
-import WesternConference from '../WesternConference/Western-Conference';
-import EasternConference from '../EasternConference/Eastern-Conference';
-import MetropolitanDivisionTeams from '../EasternConference/MetropolitanDivisionTeams';
-import AtlanticDivisionTeams from '../EasternConference/AtlanticDivisionTeams';
-import TeamInfo from '../../Pages/TeamInfo/TeamInfo';
+import NavBar from '../components/Navbar'
+import Home from '../Pages/Home/Home';
+import CentralDivisionTeams from '../components/WesternConference/CentralDivisionTeams';
+import PacificDivisionTeams from '../components/WesternConference/PacificDivisionTeams';
+import WesternConference from '../components/WesternConference/Western-Conference';
+import EasternConference from '../components/EasternConference/Eastern-Conference';
+import MetropolitanDivisionTeams from '../components/EasternConference/MetropolitanDivisionTeams';
+import AtlanticDivisionTeams from '../components/EasternConference/AtlanticDivisionTeams';
+import TeamInfo from '../Pages/TeamInfo/TeamInfo';
 
 function App() {
   
