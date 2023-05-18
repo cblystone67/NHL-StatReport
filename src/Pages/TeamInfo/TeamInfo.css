@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
 .team-card{
   border-radius: 10%;
   background-color: blanchedalmond;
   border: 3px solid black;
-  width: 30vmin;
+  width: 35vmin;
   height: 45vmin;
   color: blue;
 }
@@ -19,5 +20,19 @@
   font-size: 10vmin;
 }
 .team-details{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2vmin;
   padding-left: 2vmin;
+}
+.official-website-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4vmin;
+  margin-top: 4vmin;
+  border-radius: 50%;
+  width: 25vmin;
+  height: 10vmin;
+  background-color: dodgerblue;
+  font-weight: bold;
 }
