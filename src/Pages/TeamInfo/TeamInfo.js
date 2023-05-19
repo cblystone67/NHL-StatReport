@@ -27,9 +27,9 @@ export default function TeamInfo({ teams }) {
         <p className='team-details' >There Team Name is: {team.teamName}</p>
         <p className='team-details' >They abbreaviation is {team.abbreviation}</p>
         {team.officialSiteUrl && (
-          <iframe
+          <iframe 
           title='Official Website'
-          src='https://www.nhl.com/kings'
+          src={`https://www.nhl.com/${team.teamName.toLowerCase()}`}
           width='100%'
           height='600px'
           ></iframe>
