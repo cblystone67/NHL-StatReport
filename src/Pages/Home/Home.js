@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Home() {
+function Home({user}) {
   return (
     <section className='main-page'>
-      <h2>NHL StatReport</h2>
+      <h2>Welcome {user.name} to the NHL StatReport</h2>
       <figure className='featured-figure'>
       <img referrerPolicy='no-referrer'  alt='snow castle' className='featured-image' src='https://i.imgur.com/GGsJVkN.jpg' />
       <figcaption Snow Castle>

@@ -4,7 +4,7 @@
   --tan-1: #b67008;
   --tan-2: #0903ad;
   --tan-3: #b326e2;
-  --tan-4: #8907a6;
+  --tan-4: #07a60f;
   --orange: #1d08a2;
   --text-light: rgb(60, 230, 13);
   --text-dark: #130903;
@@ -71,7 +71,7 @@ code {
   align-items: center;
   background-color: var(--tan-1);
   color: var(--text-dark);
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid var(--tan-4);
   border-radius: 1vmin;
   padding: .6vmin;
   text-align: center;
