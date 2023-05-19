@@ -7,7 +7,6 @@ const [teams, setTeams] = useState([]);
     } catch (error) {
       console.error('Error fetching teams: ', error);
     }
-
   }
   useEffect(() => {
     fetchTeams();

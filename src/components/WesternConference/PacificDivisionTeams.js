@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-
 export default function PacificDivisionTeams(){
   const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
@@ -12,7 +11,6 @@ export default function PacificDivisionTeams(){
     } catch (error) {
       console.error('Error fetching teams: ', error);
     }
-
   }
   useEffect(() => {
     fetchTeams();

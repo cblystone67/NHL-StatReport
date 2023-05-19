@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-
 export default function MetropolitanDivisionTeams(){
   const [teams, setTeams] = useState([]);
   const fetchTeams = async () => {
@@ -12,7 +11,6 @@ export default function MetropolitanDivisionTeams(){
     } catch (error) {
       console.error('Error fetching teams: ', error);
     }
-
   }
   useEffect(() => {
     fetchTeams();
@@ -26,7 +24,7 @@ export default function MetropolitanDivisionTeams(){
   return (
         <div>
           <div>
-            {console.log(easternConferenceTeams.name)}
+            
       <h2>Metropolitan Division Teams</h2>
       <ul>
         {easternConferenceTeams.map((team) => (

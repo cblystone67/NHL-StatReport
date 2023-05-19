@@ -39,8 +39,12 @@ If the user is so inclined to wanting to open up their official team website the
 * Mongoose
 * Postman
 * JavaScript 
-* 3rd Party API
+* Swagger Open API
 * CSS
+* Heroku
+* Github
+* Trello
+* Lucid
 
 
 # View NHL StatReport on Heroku.com
@@ -48,6 +52,7 @@ Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.co
 
 
 # Trello WorkStation:
+![trello](./src/Images/Screenshots/trello.png)
 Open [https://trello.com/b/7z2cblbM/nhl-statreport](https://trello.com/b/7z2cblbM/nhl-statreport)
 
 # ERD in Lucid

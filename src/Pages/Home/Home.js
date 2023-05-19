@@ -7,7 +7,6 @@ function Home({user}) {
       <figure className='featured-figure'>
       <img referrerPolicy='no-referrer'  alt='snow castle' className='featured-image' src='https://i.imgur.com/GGsJVkN.jpg' />
       <figcaption Snow Castle>
-        
       </figcaption>
       </figure>
       
