@@ -43,6 +43,8 @@ Open [https://trello.com/b/7z2cblbM/nhl-statreport](https://trello.com/b/7z2cblb
 
 # ERD in Lucid
 Open[https://lucid.app/lucidchart/c1c09341-330e-450f-aab3-74b86b1b501a/edit?page=0_0&invitationId=inv_a8a12318-da5e-4df3-b1c0-3cbeef25a602#](https://lucid.app/lucidchart/c1c09341-330e-450f-aab3-74b86b1b501a/edit?page=0_0&invitationId=inv_a8a12318-da5e-4df3-b1c0-3cbeef25a602#)
+![erdpage](./src/Images/Screenshots/erdpage.png)
 
 # Wireframe done in Lucid
 open [https://lucid.app/lucidchart/d61966a7-6a3b-45dd-be4b-e201d78cc6e7/edit?page=0_0&invitationId=inv_f6fc0a6e-3c39-4bcb-8c8b-17f1ff9ef6ec#](https://lucid.app/lucidchart/d61966a7-6a3b-45dd-be4b-e201d78cc6e7/edit?page=0_0&invitationId=inv_f6fc0a6e-3c39-4bcb-8c8b-17f1ff9ef6ec#)
+![wireframe](./src/Images/Screenshots/wireframe.png)
