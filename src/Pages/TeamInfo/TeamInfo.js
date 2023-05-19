@@ -29,7 +29,7 @@ export default function TeamInfo({ teams }) {
         {team.officialSiteUrl && (
           <iframe
           title='Official Website'
-          src={`hhtps://www.nhl.com/${team.teamName}`}
+          src='https://www.nhl.com/kings'
           width='100%'
           height='600px'
           ></iframe>
