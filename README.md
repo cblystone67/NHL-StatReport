@@ -33,6 +33,15 @@ This page gives the user the ability to view statistical data about their team o
 If the user is so inclined to wanting to open up their official team website then they merely have to click the button and they will be given another window to view that allows them to view their official NHL Team information.
 ![webButton](./src/Images/Screenshots/webButton.png)
 
+# Technologies Used
+* React
+* Express
+* Mongoose
+* Postman
+* JavaScript 
+* 3rd Party API
+* CSS
+
 
 # View NHL StatReport on Heroku.com
 Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.com/)
@@ -48,3 +57,9 @@ Open[https://lucid.app/lucidchart/c1c09341-330e-450f-aab3-74b86b1b501a/edit?page
 # Wireframe done in Lucid
 open [https://lucid.app/lucidchart/d61966a7-6a3b-45dd-be4b-e201d78cc6e7/edit?page=0_0&invitationId=inv_f6fc0a6e-3c39-4bcb-8c8b-17f1ff9ef6ec#](https://lucid.app/lucidchart/d61966a7-6a3b-45dd-be4b-e201d78cc6e7/edit?page=0_0&invitationId=inv_f6fc0a6e-3c39-4bcb-8c8b-17f1ff9ef6ec#)
 ![wireframe](./src/Images/Screenshots/wireframe.png)
+
+# Future adjustment to the page:
+Future improvements would include adding a more up to date API so that the user could see current and accurate information.
+Development of a table showing their standings with a win/loss column.
+Development of a page that would allow for the user to view videos of game hightlights and other relevant material to the user.
+Add design and graphics to the other pages so the user has something to view while searching.
