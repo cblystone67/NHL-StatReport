@@ -6,6 +6,13 @@ Welcome to the NHL Statreport which allows you to create a useer login and then 
 Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.com/)
 
 Upon opening the app on Heroku you will be presented with the very minimalistic styling.
+# Create User/Login Form
 ![createUser](./src/Images/Screenshots/createUser.png)
 The authorization page allows the user to choose between creating a new account or if they are a current user to log themselves in using this form:
 ![userLogin](./src/Images/Screenshots/userLogin.png)
+
+# HOME Page
+![homePage](./src/Images/Screenshots/homePage.png)
+This is where the user is welcomed given access to view the websites features.
+The first is the use of the navigation bar which allows them the choice of choosing either the Eastern or Western Conferences.
+![navbar](./src/Images/Screenshots/navbar.png)
