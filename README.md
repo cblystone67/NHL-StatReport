@@ -16,3 +16,15 @@ The authorization page allows the user to choose between creating a new account 
 This is where the user is welcomed given access to view the websites features.
 The first is the use of the navigation bar which allows them the choice of choosing either the Eastern or Western Conferences.
 ![navbar](./src/Images/Screenshots/navbar.png)
+
+# Conference Page
+This is where they will be given the ability to choose the two divisions that are available.
+![confpage](./src/Images/Screenshots/confpage.png)
+
+# Division Page
+This page allows the user to choose from the many teams within that division.
+![divPage](./src/Images/Screenshots/divPage.png)
+
+# Team Page
+This page gives the user the ability to view statistical data about their team of choice along with the ability to view their Official NHL Team Website.
+![teamPage](./src/Images/Screenshots/teamPage.png)
