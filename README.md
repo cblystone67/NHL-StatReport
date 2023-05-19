@@ -7,3 +7,5 @@ Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.co
 
 Upon opening the app on Heroku you will be presented with the very minimalistic styling.
 ![createUser](./src/Images/Screenshots/createUser.png)
+The authorization page allows the user to choose between creating a new account or if they are a current user to log themselves in using this form:
+![userLogin](./src/Images/Screenshots/userLogin.png)
