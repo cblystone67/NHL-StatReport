@@ -33,6 +33,9 @@ This page gives the user the ability to view statistical data about their team o
 If the user is so inclined to wanting to open up their official team website then they merely have to click the button and they will be given another window to view that allows them to view their official NHL Team information.
 ![webButton](./src/Images/Screenshots/webButton.png)
 
+# View NHL StatReport on Heroku.com
+Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.com/)
+
 # Technologies Used
 * React
 * Express
@@ -47,9 +50,7 @@ If the user is so inclined to wanting to open up their official team website the
 * Lucid
 
 
-# View NHL StatReport on Heroku.com
-Open [https://nhl-statreport.herokuapp.com/](https://nhl-statreport.herokuapp.com/)
-
+# Design Tools and Examples
 
 # Trello WorkStation:
 ![trello](./src/Images/Screenshots/trello.png)
